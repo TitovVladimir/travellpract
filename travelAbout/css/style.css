@@ -9,4 +9,19 @@ body {
   background-color: #FFFFFF;
 }
 
+header {
+  width: 100%;
+  height: 131px;
+  background-image: linear-gradient(to bottom, #fefefe, #eff0f0);
+}
 
+.roof {
+  width: 950px;
+  height: 65px;
+  float: center;
+  margin: 0 auto;
+}
+
+.roofMenu {
+
+}
