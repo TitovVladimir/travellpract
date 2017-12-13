@@ -20,8 +20,47 @@ header {
   height: 65px;
   float: center;
   margin: 0 auto;
+  margin-top: 33px;
 }
 
-.roofMenu {
+.leftRoof {
+  width: 460px;
+  height: 65px;
+  float: left;
+  margin-left: -3px;
+}
 
+.headLogo {
+  width: 229px;
+  height: 32px;
+  float: left;
+}
+
+.logoSlogan {
+  width: 160px;
+  height: 36px;
+  float: left;
+  font-family: Tahoma, 'Geneva CY', sans-serif;
+  color: #2a292a;
+  font-size: 12px;
+  margin-left: 13px;
+}
+
+
+.supportBlock {
+  width: 210px;
+  height: 48px;
+  float: left;
+  font: normal 13px tahoma, sans-serif;
+  margin-left: 38.5px;
+  margin-top: -2px;
+  border-bottom: none;
+  font-size: 11px;
+}
+
+.supportBlock > a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #343434;
+  text-decoration: none;
 }
