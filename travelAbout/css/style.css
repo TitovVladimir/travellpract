@@ -56,6 +56,11 @@ header {
   margin-top: -2px;
   border-bottom: none;
   font-size: 11px;
+  color: #646464;
+}
+
+.supportBlock > span {
+  border-bottom: 1px dashed #b5c1cd;
 }
 
 .inputBlock {
@@ -85,9 +90,23 @@ header {
 }
 
 #lengSelect {
+  margin-top: -30px;
   width: 41px;
   height: 26px;
   float: right;
+  background: #fff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+}
+
+#lengSelect:hover {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
 }
 
 .supportBlock > a {
