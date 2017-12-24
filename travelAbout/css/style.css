@@ -211,6 +211,27 @@ header {
   position: relative;
 }
 
+.brText {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.brText > a {
+  width: 56px;
+  height: 26px;
+  font-size: 11px;
+  color: #a8c5ff;
+  float: left;
+}
+
+.brText > label1 {
+  margin-top: -13px;
+  color: #d3e1ff;
+  font-size: 11px;
+  float: left;
+  margin-right: 8px;
+}
+
 .imgBlock {
   height: 205px;
   width: 100%;
@@ -237,6 +258,34 @@ header {
   top: -39px;
 }
 
-.Img > img {
-  
+.Img1 {
+  width: 1200px;
+  height: 225px;
+  margin: 0 auto;
+}
+
+.imgText {
+  width: 940px;
+  height: 46px;
+  margin: 0 auto;
+}
+
+.imgText > h1 {
+  font-family: "Franklin Gothic Demi", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: 20px;
+  color: #FFF;
+  font-weight: normal;
+  text-shadow: -1px -1px 2px #001336;
+}
+
+.imgText > .small {
+  display: block;
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #FFF;
+  font-weight: normal;
+  text-shadow: -1px -1px 2px #001336;
 }
